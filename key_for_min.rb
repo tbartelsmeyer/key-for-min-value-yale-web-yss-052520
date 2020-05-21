@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
   min_val = 2147483647
+  min_key
   name_hash.each { |key, val|
     if val < min_val
       min_key = key
